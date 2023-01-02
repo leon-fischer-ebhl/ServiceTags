@@ -5,3 +5,5 @@ Cut Service Tags out of txt file.
 
 1. Click Button to select a txt file  
 2. Right click into the TextBox to select all and copy at the same time  
+
+    ![Screenshot](/ServiceTags/ServiceTags.png)
