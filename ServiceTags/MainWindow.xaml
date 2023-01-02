@@ -1,0 +1,19 @@
+﻿<Window x:Class="ServiceTags.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ServiceTags"
+        mc:Ignorable="d"
+        Title="Service Tags" SizeToContent="Height" Width="300"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        ResizeMode="NoResize">
+    <Border CornerRadius="5">
+        <StackPanel>
+        <Button x:Name="selectTextFileBtn" Content="Datei auswählen" Click="selectTextFileBtn_Click" Padding="5" Foreground="White" Background="Black"/>
+        <TextBox x:Name="serviceTagsTb" IsReadOnly="True" MouseRightButtonUp="serviceTagsTb_Click" Foreground="White" Background="Black"/>
+            <Button x:Name="close" Click="close_Click" Content="Beenden" Foreground="White" Background="Black"/>
+    </StackPanel>
+    </Border>
+</Window>
